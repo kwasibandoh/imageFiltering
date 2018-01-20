@@ -21,3 +21,7 @@ And here is the result:
 ![GitHub Logo](img/after.png)
 
 This program outputs a completely new file so you dont have to worry about losing the original image. 
+
+## CImg Library
+
+The CImg library is used to read image files and write to them. Learn more at http://cimg.eu .
