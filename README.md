@@ -1,5 +1,5 @@
 # imageFiltering
-## A cpp program that takes in an image and a filter and apply that filter by convolution. 
+## A cpp program that performs filtering by convolution. 
 
 This is robust, scalable, generalized code that can apply any filter of odd dimesions(3x3,5x5, etc) to any image of odd dimension. For each pixel in the filtered image, the filter is centered at that pixel location, and the pixel values from the original image, for every neighbor that overlaps with the filter, is weighted by the value of the filter at that location. 
 
@@ -14,3 +14,10 @@ An image is filtered by running the `filter` program from terminal followed by t
 ```
 ./filter blur2.png robot.jpg
 ```
+Here is the initial image: 
+![GitHub Logo](img/before.png)
+
+And here is the result:
+![GitHub Logo](img/after.png)
+
+This program outputs a completely new file so you dont have to worry about losing the original image. 
